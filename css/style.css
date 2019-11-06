@@ -33,7 +33,7 @@ blockquote {
 	margin: 20px 60px;
 	font-family: Helvetica, sans-serif;
 }
-
+.sam { width: 40%; }
 header {margin-bottom: 20px;}
 
 /* ensures that your images stretch the width of their containers */
@@ -45,18 +45,20 @@ a {
 	 }
 a:hover { color: black; }
 
+.double-dudes img { width: 50%; }
+.yellow { 
+	background-color: yellow;
+	height:80px;
+ }
+
 .grid {
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-gap: 40px;
-	width: 90%;
 	margin: auto;
+	width: 100%;
 }
 
-.grid div {
-	background-color: #ccc;
-	padding: 20px;
-}
+.space-me {grid-gap: 40px;}
 
 @media only screen and (min-width: 768px) {
 	body {
@@ -64,7 +66,6 @@ a:hover { color: black; }
 	}
 	.grid {
 		grid-template-columns: 1fr 1fr;
-		width: 70%;
 	}
 }
 
