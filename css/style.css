@@ -51,11 +51,11 @@ h1 {
 }
 
 h2 {
-	font-size: 32px;
+	font-size: 24px;
 }
 
 h3 {
-	font-size: 24px;
+	font-size: 20px;
 }
 
 h4 {
@@ -157,7 +157,13 @@ a:hover {
 	border-style: solid;
 	border-color: black;
 	border-width: .25px;
+	padding: 50px;
+	line-height: 2;
 	}
+
+.blue-home h2 {
+	line-height: 1.4;
+}
 
 .joe {
 	padding: 60px;
@@ -171,11 +177,12 @@ a:hover {
 	background-color: #e9444f;
 	border-style: solid;
 	border-color: black;
-	border-width: .25px; 
+	border-width: .25px;
 }
 
 .contracts h1 {
 	font-size: 48px;
+	line-height: 1.4;
 }
 
 .footer {
