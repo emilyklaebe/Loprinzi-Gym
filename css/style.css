@@ -87,20 +87,22 @@ a {
 	}
 
 a:hover {
-	color: white;
+	color: #e9444f;
 	}
 
 .main-nav {
 	display: grid;
 	justify-content: space-between;
+	background-color: #e8e8e8;
 	border-style: solid;
 	border-color: black;
-	background-color: #e8e8e8;
+	border-width: .25px;
+	border-color: black;
 }
 
 .main-nav ul {
 	display: grid;
-	grid-template-columns: 3fr 2fr .75fr .75fr .75fr;
+	grid-template-columns: 2fr 2fr .75fr .75fr .75fr;
 	align-items: center;
 }
 
@@ -115,22 +117,25 @@ a:hover {
 
 .nav-title {
 	font-family: "sporting-grotesque", sans-serif;
-	font-size: 16px;
+	font-size: 14px;
 }
 
 .yellow-banner { 
 	background-color: #f9e56b;
-	height:60px;
+	height: 60px;
  }
 
  .yellow-banner-home { 
 	background-color: #f9e56b;
 	height:40px;
+	border-style: solid;
+	border-color: black;
+	border-width: .25px;
  }
 
  .green-banner { 
 	background-color: #6d9b4f;
-	height:60px;
+	height: 60px;
  }
 
 .grid {
@@ -143,6 +148,34 @@ a:hover {
 .space-me {
 	grid-gap: 40px;
 	}
+
+.blue-home {
+	background-color: #0e306a;
+	color: #e8e8e8;
+	border-style: solid;
+	border-color: #e8e8e8;
+	border-width: .25px;
+	}
+
+.joe {
+	padding: 60px;
+	width: 70%;
+}
+
+.contracts {
+	text-align: center;
+	color: #e8e8e8;
+	padding: 45px;
+	background-color: #e9444f;
+	border-style: solid;
+	border-color: #e8e8e8;
+	border-width: .25px; 
+}
+
+.contracts h1 {
+	font-size: 48px;
+}
+
 
 @media only screen and (min-width: 768px) {
 	body {
