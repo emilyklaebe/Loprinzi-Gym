@@ -93,6 +93,7 @@ a:hover {
 .main-nav {
 	display: grid;
 	justify-content: space-between;
+	position: fixed;
 	background-color: #e8e8e8;
 	border-style: solid;
 	border-color: black;
@@ -131,6 +132,7 @@ a:hover {
 	border-style: solid;
 	border-color: black;
 	border-width: .25px;
+	text-align: center;
  }
 
  .green-banner { 
@@ -153,7 +155,7 @@ a:hover {
 	background-color: #0e306a;
 	color: #e8e8e8;
 	border-style: solid;
-	border-color: #e8e8e8;
+	border-color: black;
 	border-width: .25px;
 	}
 
@@ -168,12 +170,22 @@ a:hover {
 	padding: 45px;
 	background-color: #e9444f;
 	border-style: solid;
-	border-color: #e8e8e8;
+	border-color: black;
 	border-width: .25px; 
 }
 
 .contracts h1 {
 	font-size: 48px;
+}
+
+.footer {
+	display: grid;
+	justify-content: space-between;
+	background-color: #e8e8e8;
+	border-style: solid;
+	border-color: black;
+	border-width: .25px;
+	border-color: black;
 }
 
 
