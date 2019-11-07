@@ -62,20 +62,12 @@ h4 {
 	font-size: 16px;
 }
 
-.hide {
-	display: none;
-}
-
 blockquote {
 	text-align: center;
 	color: #e8e8e8;
 	padding: 45px;
 	background-color: #e9444f;
 }
-
-.sam { 
-	width: 70%;
-	}
 
 img {
 	width: 100%;
@@ -121,11 +113,6 @@ a:hover {
 	font-size: 14px;
 }
 
-.yellow-banner { 
-	background-color: #f9e56b;
-	height: 60px;
- }
-
  .yellow-banner-home { 
 	background-color: #f9e56b;
 	height:40px;
@@ -135,21 +122,12 @@ a:hover {
 	text-align: center;
  }
 
- .green-banner { 
-	background-color: #6d9b4f;
-	height: 60px;
- }
-
 .grid {
 	display: grid;
 	grid-template-columns: 1fr;
 	margin: auto;
 	width: 100%;
 }
-
-.space-me {
-	grid-gap: 40px;
-	}
 
 .blue-home {
 	background-color: #0e306a;
@@ -162,6 +140,7 @@ a:hover {
 	}
 
 .blue-home h2 {
+	font-size: 30px;
 	line-height: 1.4;
 }
 
@@ -181,8 +160,10 @@ a:hover {
 }
 
 .contracts h1 {
-	font-size: 48px;
-	line-height: 1.4;
+	font-size: 75px;
+	line-height: 1.2;
+	text-align: left;
+	vertical-align: middle;
 }
 
 .footer {
@@ -194,6 +175,24 @@ a:hover {
 	border-width: .25px;
 	border-color: black;
 }
+
+.sam { 
+	width: 70%;
+	}
+
+.space-me {
+	grid-gap: 40px;
+	}
+
+ .green-banner { 
+	background-color: #6d9b4f;
+	height: 60px;
+ }
+
+.yellow-banner { 
+	background-color: #f9e56b;
+	height: 60px;
+ }
 
 
 @media only screen and (min-width: 768px) {
