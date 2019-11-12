@@ -133,7 +133,6 @@ a:hover {
 	background-color: #f9e56b;
 	height:40px;
 	border-top: solid;
-	border-bottom: solid;
 	border-color: black;
 	border-width: .25px;
 	text-align: center;
@@ -142,6 +141,7 @@ a:hover {
 .yellow-banner-home p {
  	font-family: "Work Sans", sans-serif;
 	font-style: lighter;
+	padding: 10px;
  }
 
  .yellow-banner-home em {
@@ -186,12 +186,10 @@ a:hover {
 }
 
 .contracts {
-	text-align: center;
 	color: #e8e8e8;
 	padding: 45px;
 	background-color: #e9444f;
 	border-left: solid;
-	border-bottom: solid;
 	border-color: black;
 	border-width: .25px;
 }
@@ -200,8 +198,8 @@ a:hover {
 	font-size: 75px;
 	line-height: 1.2;
 	text-align: left;
+	padding: 15px;
 	vertical-align: middle;
-	padding: 10px;
 }
 
 .grid-footer {
@@ -216,6 +214,10 @@ a:hover {
 	justify-content: space-between;
 	background-color: #e8e8e8;
 	vertical-align: middle;
+	border-top: solid;
+	border-color: black;
+	border-width: .25px;
+	text-align: center;
 }
 
 footer div {
@@ -245,6 +247,38 @@ footer .contact {
 	border-width: .25px;
 }
 
+ /* Classes */
+
+.grid-yellow {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: auto;
+	align-items: center;
+}
+
+.yellow-class {
+	background-color: #f9e56b;
+	color: black;
+	border-style: solid;
+	border-color: black;
+	border-width: .25px;
+	padding: 50px;
+	line-height: 1.8;
+	}
+
+.yellow-class h2 {
+	font-size: 30px;
+	line-height: 1.4;
+	padding-top: 50px;
+}
+
+.yellow-class img {
+	padding-left: 50px;
+	width: 70%;
+	align-content: center;
+	padding-top: 50px;
+}
+
 /* About Page */
 
 .sam { 
@@ -255,14 +289,39 @@ footer .contact {
 	grid-gap: 40px;
 	}
 
+/* Green Banner */
+
  .green-banner { 
 	background-color: #6d9b4f;
-	height: 60px;
+	height: 40px;
  }
+
+ .green-banner em {
+ 	font-family: "sporting-grotesque", sans-serif;
+ }
+
+ .green-banner p {
+ 	font-family: "Work Sans", sans-serif;
+	font-style: lighter;
+	padding: 11px;
+ }
+
+ /* Yellow Banner */
 
 .yellow-banner { 
 	background-color: #f9e56b;
-	height: 60px;
+	height:60px;
+	padding: 10px;
+ }
+
+ .yellow-banner em {
+ 	font-family: "sporting-grotesque", sans-serif;
+ }
+
+ .yellow-banner p {
+ 	font-family: "Work Sans", sans-serif;
+	font-style: lighter;
+	padding: 11px; 
  }
 
  /* Media Queries */
