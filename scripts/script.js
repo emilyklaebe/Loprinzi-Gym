@@ -1,31 +1,27 @@
 // your script file for adding your own jquery
-$(function() {
+ $(function() {
 // Your Code from here on down. Don't delete that line above!
   
 
-$('.table-rates').on('click', function (){
-	$('.hide').css('display', 'block')
-})
+// $('.standard-rates').on('click', function (){
+//	$('.hide').css('display', '.table-rates')
+// })
 
-$('body').flowtype({
-	 minimum : 500,
-	 maximum : 1200,
-	 minFont : 12,
-	 maxFont : 90,
+
+var flip = 0;
+$( ".standard-rates" ).click(function() {
+  $( ".table-one" ).toggle( flip++ % 2 === 0 );
 });
 
-$('h1' 'h2' 'h3' 'h4').flowtype({
-	 minimum : 500,
-	 maximum : 1200,
-	 minFont : 18,
-	 maxFont : 100,
+var flip = 0;
+$( ".student-rates" ).click(function() {
+  $( ".table-two" ).toggle( flip++ % 2 === 0 );
 });
 
-
-
-
-
-
+var flip = 0;
+$( ".group-rates" ).click(function() {
+  $( ".table-three" ).toggle( flip++ % 2 === 0 );
+});
 
 
 

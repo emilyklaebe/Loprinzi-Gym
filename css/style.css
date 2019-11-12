@@ -50,7 +50,7 @@ body {
 	font-family: "Work Sans", sans-serif;
 	font-weight: 300;
 	font-size: 14px;
-	 }
+	}
 
 h1, h2, h3, h4 {
 	font-family: "sporting-grotesque", sans-serif;
@@ -451,7 +451,7 @@ footer .contact {
 
 @media only screen and (min-width: 768px) {
 	body {
-		background-color: skyblue;
+		background-color: #e8e8e8;;
 	}
 	.grid {
 		grid-template-columns: 1fr 1fr;
@@ -460,13 +460,13 @@ footer .contact {
 
 @media only screen and (min-width: 1024px) {
 	body {
-		background-color: salmon;
+		background-color: #e8e8e8;;
 	}
 }
 
 @media only screen and (min-width: 1200px) {
 	body {
-		background-color: pink;
+		background-color: #e8e8e8;;
 	}
 }
 /*
