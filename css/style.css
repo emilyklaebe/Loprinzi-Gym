@@ -358,6 +358,38 @@ footer .contact {
 	padding: 11px; 
  }
 
+ /* Rates */
+
+ .standard-rates h1 {
+ 	display: grid;
+	grid-template-columns: 1fr;
+	background-color: #6d9b4f;
+	color: #e8e8e8;
+	font-size: 60px;
+	line-height: 1.2em;
+	padding: 140px 50px 80px 50px;
+ }
+
+ .student-rates h1 {
+ 	display: grid;
+	grid-template-columns: 1fr;
+	background-color: #e9444f;
+	color: #e8e8e8;
+	font-size: 60px;
+	line-height: 1.2em;
+	padding: 95px 50px 80px 50px;
+ }
+
+  .group-rates h1 {
+ 	display: grid;
+	grid-template-columns: 1fr;
+	background-color: #0e306a;
+	color: #e8e8e8;
+	font-size: 60px;
+	line-height: 1.2em;
+	padding: 95px 50px 80px 50px;
+ }
+
  /* Media Queries */
 
 
