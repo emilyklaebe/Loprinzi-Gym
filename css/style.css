@@ -70,6 +70,9 @@ blockquote {
 	padding: 45px;
 	background-color: #e9444f;
 	margin-top: -2px;
+	border-top: solid;
+	border-color: black;
+	border-width: .25px;
 }
 
 img {
@@ -116,13 +119,20 @@ a:hover {
 	font-size: 14px;
 }
 
- .yellow-banner-home { 
+.yellow-banner-home { 
 	background-color: #f9e56b;
 	height:40px;
-	border-style: solid;
+	border-top: solid;
+	border-bottom: solid;
 	border-color: black;
 	border-width: .25px;
 	text-align: center;
+ }
+
+.yellow-banner-home p {
+ 	font-style: "sporting-grotesque";
+ 	padding: 10px;
+ 	text-align: center;
  }
 
 .grid {
@@ -167,7 +177,8 @@ a:hover {
 	color: #e8e8e8;
 	padding: 45px;
 	background-color: #e9444f;
-	border-style: solid;
+	border-left: solid;
+	border-bottom: solid;
 	border-color: black;
 	border-width: .25px;
 }
@@ -177,16 +188,13 @@ a:hover {
 	line-height: 1.2;
 	text-align: left;
 	vertical-align: middle;
+	padding: 10px;
 }
 
 .footer {
 	display: grid;
 	justify-content: space-between;
 	background-color: #e8e8e8;
-	border-style: solid;
-	border-color: black;
-	border-width: .25px;
-	border-color: black;
 }
 
 /* About Page */
