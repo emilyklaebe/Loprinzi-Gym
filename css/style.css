@@ -1,4 +1,4 @@
-/* Enter your Styles below! */
+/* Fonts */
 @font-face {
 font-family: "sporting-grotesque";
 src: url("../fonts/Sporting_Grotesque-Regular_web.eot");
@@ -35,7 +35,7 @@ url("../fonts/WorkSans-Regular.otf") format("opentype"),
 url("../fonts/WorkSans-Regular.svg#filename") format("svg");
 }
 
-
+/* Body */
 
 body { 
 	font-family: "work-sans-light", sans-serif;
@@ -62,11 +62,14 @@ h4 {
 	font-size: 16px;
 }
 
+/* Home Page */
+
 blockquote {
 	text-align: center;
 	color: #e8e8e8;
 	padding: 45px;
 	background-color: #e9444f;
+	margin-top: -2px;
 }
 
 img {
@@ -129,6 +132,12 @@ a:hover {
 	width: 100%;
 }
 
+.grid-blue-home {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: auto;
+}
+
 .blue-home {
 	background-color: #0e306a;
 	color: #e8e8e8;
@@ -142,6 +151,10 @@ a:hover {
 .blue-home h2 {
 	font-size: 30px;
 	line-height: 1.4;
+}
+
+.blue-home ul {
+	padding-left: 50px;
 }
 
 .joe {
@@ -176,6 +189,8 @@ a:hover {
 	border-color: black;
 }
 
+/* About Page */
+
 .sam { 
 	width: 70%;
 	}
@@ -193,6 +208,8 @@ a:hover {
 	background-color: #f9e56b;
 	height: 60px;
  }
+
+ /* Media Queries */
 
 
 @media only screen and (min-width: 768px) {
