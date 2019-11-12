@@ -10,17 +10,17 @@
 
 var flip = 0;
 $( ".standard-rates" ).click(function() {
-  $( ".table-one" ).toggle( flip++ % 2 === 0 );
+  $( ".table-one" ).toggle( flip++ % 2 === 0 ).slideToggle("slow");
 });
 
 var flip = 0;
 $( ".student-rates" ).click(function() {
-  $( ".table-two" ).toggle( flip++ % 2 === 0 );
+  $( ".table-two" ).toggle( flip++ % 2 === 0 ).slideToggle("slow");
 });
 
 var flip = 0;
 $( ".group-rates" ).click(function() {
-  $( ".table-three" ).toggle( flip++ % 2 === 0 );
+  $( ".table-three" ).toggle( flip++ % 2 === 0 ).slideToggle("slow");
 });
 
 
