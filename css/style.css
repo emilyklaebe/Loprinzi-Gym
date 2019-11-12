@@ -35,10 +35,20 @@ url("../fonts/WorkSans-Regular.otf") format("opentype"),
 url("../fonts/WorkSans-Regular.svg#filename") format("svg");
 }
 
+@font-face {
+font-family: "work-sans-bold";
+src: url("../fonts/WorkSans-Bold.eot");
+src:
+url("../fonts/WorkSans-Bold.woff") format("woff"),
+url("../fonts/WorkSans-Bold.otf") format("opentype"),
+url("../fonts/WorkSans-Bold.svg#filename") format("svg");
+}
+
 /* Body */
 
 body { 
-	font-family: "work-sans-light", sans-serif;
+	font-family: "Work Sans", sans-serif;
+	font-weight: 300;
 	font-size: 14px;
 	 }
 
@@ -130,9 +140,12 @@ a:hover {
  }
 
 .yellow-banner-home p {
- 	font-style: "sporting-grotesque";
- 	padding: 10px;
- 	text-align: center;
+ 	font-family: "Work Sans", sans-serif;
+	font-style: lighter;
+ }
+
+ .yellow-banner-home em {
+ 	font-family: "sporting-grotesque", sans-serif;
  }
 
 .grid {
@@ -155,7 +168,7 @@ a:hover {
 	border-color: black;
 	border-width: .25px;
 	padding: 50px;
-	line-height: 2;
+	line-height: 1.8;
 	}
 
 .blue-home h2 {
@@ -191,10 +204,45 @@ a:hover {
 	padding: 10px;
 }
 
+.grid-footer {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	margin: auto;
+	width: 100%;
+}
+
 .footer {
 	display: grid;
 	justify-content: space-between;
 	background-color: #e8e8e8;
+	vertical-align: middle;
+}
+
+footer div {
+	align-items: center;
+}
+
+footer p {
+	padding: 30px;
+	font-family: "Work Sans", sans-serif;
+	font-style: lighter;
+	line-height: 1.3em;
+}
+
+footer em {
+	font-family: "sporting-grotesque", sans-serif;
+}
+
+footer .address {
+	border-right: solid;
+	border-color: black;
+	border-width: .25px;
+}
+
+footer .contact {
+	border-left: solid;
+	border-color: black;
+	border-width: .25px;
 }
 
 /* About Page */
