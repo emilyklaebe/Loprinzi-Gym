@@ -255,7 +255,7 @@ footer .contact {
 
 .grid-yellow {
 	display: grid;
-	grid-template-columns: 2fr 1fr;
+	grid-template-columns: 1.8fr 1fr;
 	margin: auto;
 	align-items: center;
 	justify-content: space-around;
@@ -267,7 +267,7 @@ footer .contact {
 	border-style: solid;
 	border-color: black;
 	border-width: .25px;
-	padding: 50px;
+	padding: 70px;
 	line-height: 1.8;
 	}
 
