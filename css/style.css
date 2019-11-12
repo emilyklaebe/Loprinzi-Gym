@@ -313,6 +313,92 @@ footer .contact {
 	padding: 5px 5px 5px 10px;
 }
 
+ /* Rates */
+
+ .standard-rates h1 {
+ 	display: grid;
+	grid-template-columns: 1fr;
+	background-color: #6d9b4f;
+	color: #e8e8e8;
+	font-size: 60px;
+	line-height: 1.2em;
+	padding: 140px 50px 80px 50px;
+ }
+
+ .student-rates h1 {
+ 	display: grid;
+	grid-template-columns: 1fr;
+	background-color: #e9444f;
+	color: #e8e8e8;
+	font-size: 60px;
+	line-height: 1.2em;
+	padding: 95px 50px 80px 50px;
+ }
+
+  .group-rates h1 {
+ 	display: grid;
+	grid-template-columns: 1fr;
+	background-color: #0e306a;
+	color: #e8e8e8;
+	font-size: 60px;
+	line-height: 1.2em;
+	padding: 95px 50px 80px 50px;
+ }
+
+/* Tables Rates */
+
+.table-rates th {
+	font-family: "sporting-grotesque", sans-serif;
+	text-align: left;
+}
+
+.table-rates td {
+	border: 1px solid black;
+	padding: 5px 5px 5px 10px;
+}
+
+/* Tables One */
+
+.table-one {
+	background-color: #a1cc85;
+	padding: 70px;
+}
+
+.table-one table {
+	background-color: #a1cc85;
+	color: black;
+	width: 100%;
+	line-height: 2.2em;
+}
+
+/* Tables Two */
+
+.table-two {
+	background-color: #f5a4ab;
+	padding: 70px;
+}
+
+.table-two table {
+	background-color: #f5a4ab;
+	color: black;
+	width: 100%;
+	line-height: 2.2em;
+}
+
+/* Tables Three */
+
+.table-three {
+	background-color: #9bc2e7;
+	padding: 70px;
+}
+
+.table-three table {
+	background-color: #9bc2e7;
+	color: black;
+	width: 100%;
+	line-height: 2.2em;
+}
+
 /* About Page */
 
 .sam { 
@@ -356,38 +442,6 @@ footer .contact {
  	font-family: "Work Sans", sans-serif;
 	font-style: lighter;
 	padding: 11px; 
- }
-
- /* Rates */
-
- .standard-rates h1 {
- 	display: grid;
-	grid-template-columns: 1fr;
-	background-color: #6d9b4f;
-	color: #e8e8e8;
-	font-size: 60px;
-	line-height: 1.2em;
-	padding: 140px 50px 80px 50px;
- }
-
- .student-rates h1 {
- 	display: grid;
-	grid-template-columns: 1fr;
-	background-color: #e9444f;
-	color: #e8e8e8;
-	font-size: 60px;
-	line-height: 1.2em;
-	padding: 95px 50px 80px 50px;
- }
-
-  .group-rates h1 {
- 	display: grid;
-	grid-template-columns: 1fr;
-	background-color: #0e306a;
-	color: #e8e8e8;
-	font-size: 60px;
-	line-height: 1.2em;
-	padding: 95px 50px 80px 50px;
  }
 
  /* Media Queries */
