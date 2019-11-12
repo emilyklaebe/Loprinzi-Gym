@@ -3,7 +3,7 @@ $(function() {
 // Your Code from here on down. Don't delete that line above!
   
 
-$('h4').on('click', function (){
+$('.table-rates').on('click', function (){
 	$('.hide').css('display', 'block')
 })
 
