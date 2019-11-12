@@ -251,6 +251,8 @@ footer .contact {
 
  /* Classes */
 
+ /* Header */
+
 .grid-yellow {
 	display: grid;
 	grid-template-columns: 2fr 1fr;
@@ -279,6 +281,36 @@ footer .contact {
 	width: 90%;
 	padding-top: 50px;
 	padding-left: 25px;
+}
+
+ /* Table */
+
+.table-class {
+	background-color: #e9444f;
+	padding: 70px;
+}
+
+.grid-class-schedule {
+	background-color: #e9444f;
+	color: #e8e8e8;
+	padding-bottom: 30px;
+}
+
+.table-class table {
+	background-color: #e9444f;
+	color: #e8e8e8;
+	width: 100%;
+	line-height: 2.2em;
+}
+
+.table-class th {
+	font-family: "sporting-grotesque", sans-serif;
+	text-align: left;
+}
+
+.table-class td {
+	border: 1px solid #e8e8e8;
+	padding: 5px 5px 5px 10px;
 }
 
 /* About Page */
