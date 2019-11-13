@@ -453,7 +453,7 @@ footer .contact {
 
 .space-me {
 	grid-gap: 20px;
-	text-align: justify;
+	text-align: left;
 	line-height: 1.2;
 	}
 
@@ -526,14 +526,15 @@ footer .contact {
  .yellow-banner p {
  	font-family: "Work Sans", sans-serif;
 	font-style: lighter;
+	padding: 10px 8px 0px 8px;
  }
 
  .topline {
- 	padding-bottom: 5px;
+
  }
 
  .bottomline {
- 	padding-bottom: 5px;
+
  }
 
  /* Media Queries */
