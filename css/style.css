@@ -217,6 +217,7 @@ blockquote {
 	background-color: #e8e8e8;
 	vertical-align: middle;
 	border-top: solid;
+	border-bottom: solid;
 	border-color: black;
 	border-width: .25px;
 	text-align: center;
@@ -461,7 +462,7 @@ footer .contact {
 }
 
 .space-me {
-	grid-gap: 20px;
+	grid-gap: 30px;
 	text-align: left;
 	line-height: 1.2;
 	}
@@ -471,16 +472,10 @@ footer .contact {
 	grid-template-columns: 1fr 1fr;
 	margin: auto;
 	width: 80%;
-	padding-top: 15px;
-	padding-bottom: 15px;
 }
 
 .space-me em {
 	font-variant: small-caps;
-}
-
-.about-grid-two img {
-
 }
 
 /* Bottom Grid */
@@ -536,14 +531,6 @@ footer .contact {
  	font-family: "Work Sans", sans-serif;
 	font-style: lighter;
 	padding: 10px 8px 0px 8px;
- }
-
- .topline {
-
- }
-
- .bottomline {
-
  }
 
  /* Media Queries */
