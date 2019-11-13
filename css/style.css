@@ -479,7 +479,7 @@ footer .contact {
 }
 
 /* Bottom Grid */
-
+/*
 .about-grid-three {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -490,9 +490,9 @@ footer .contact {
 .gus-image img {
 	width: 100%;
 }
-
+*/
 /* Green Banner */
-
+ /*
  .green-banner { 
 	background-color: #6d9b4f;
 	height: 40px;
@@ -511,14 +511,13 @@ footer .contact {
 	font-style: lighter;
 	padding: 12px;
  }
-
+*/
  /* Yellow Banner */
 
 .yellow-banner { 
 	background-color: #f9e56b;
 	height:60px;
 	border-top: .25px;
-	border-bottom: .25px;
 	border-color: black;
 	border-style: solid;
  }
