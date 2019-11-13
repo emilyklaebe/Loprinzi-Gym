@@ -474,13 +474,13 @@ footer .contact {
 
 .about-grid-two {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1.4fr 1fr;
 	margin: auto;
 	width: 100%;
 }
 
 .space-me {
-	grid-gap: 30px;
+	grid-gap: 35px;
 	text-align: left;
 	line-height: 1.2;
 	}
@@ -489,7 +489,8 @@ footer .contact {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	margin: auto;
-	width: 80%;
+	width: 70%;
+	text-align: justify;
 }
 
 .space-me em {
@@ -534,7 +535,7 @@ footer .contact {
 
 .yellow-banner { 
 	background-color: #f9e56b;
-	height:60px;
+	height: 60px;
 	border-top: .25px;
 	border-color: black;
 	border-style: solid;
@@ -547,7 +548,7 @@ footer .contact {
  .yellow-banner p {
  	font-family: "Work Sans", sans-serif;
 	font-style: lighter;
-	padding: 10px 8px 0px 8px;
+	padding: 8px 8px 0px 8px;
  }
 
  /* Media Queries */
