@@ -403,19 +403,99 @@ footer .contact {
 
 /* About Page */
 
+
+/* Top Grid */
+
+.about-grid-one {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: auto;
+	width: 100%;
+	background-color: #0e306a;
+	padding-top: 110px;
+	border-bottom: .25px;
+	border-style: solid;
+	border-color: black;
+}
+
 .sam { 
-	width: 70%;
+	width: 60%;
+	align-content: center;
+	padding: 0px 70px 40px 70px;
 	}
 
+.about-grid-one h2 {
+	color: #e8e8e8;
+	font-size: 29px;
+	line-height: 1.4;
+}
+
+.about-quote {
+	padding: 0px 160px 40px 0px;
+}
+
+.about-grid-one p {
+	color: #e8e8e8;
+	padding-top: 15px;
+	font-size: 18px;
+	font-variant: small-caps;
+	text-align: right;
+}
+
+/* Middle Grid */
+
+.about-grid-two {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: auto;
+	width: 100%;
+}
+
 .space-me {
-	grid-gap: 40px;
+	grid-gap: 20px;
+	text-align: justify;
+	line-height: 1.2;
 	}
+
+.grid-paragraph {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: auto;
+	width: 80%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.space-me em {
+	font-variant: small-caps;
+}
+
+.about-grid-two img {
+
+}
+
+/* Bottom Grid */
+
+.about-grid-three {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: auto;
+	width: 100%;
+}
+
+.gus-image img {
+	width: 100%;
+}
 
 /* Green Banner */
 
  .green-banner { 
 	background-color: #6d9b4f;
 	height: 40px;
+	border-top: .25px;
+	border-color: black;
+	border-style: solid;
+	text-align: center;
  }
 
  .green-banner em {
@@ -425,7 +505,7 @@ footer .contact {
  .green-banner p {
  	font-family: "Work Sans", sans-serif;
 	font-style: lighter;
-	padding: 11px;
+	padding: 12px;
  }
 
  /* Yellow Banner */
@@ -433,7 +513,10 @@ footer .contact {
 .yellow-banner { 
 	background-color: #f9e56b;
 	height:60px;
-	padding: 10px;
+	border-top: .25px;
+	border-bottom: .25px;
+	border-color: black;
+	border-style: solid;
  }
 
  .yellow-banner em {
@@ -443,7 +526,14 @@ footer .contact {
  .yellow-banner p {
  	font-family: "Work Sans", sans-serif;
 	font-style: lighter;
-	padding: 11px; 
+ }
+
+ .topline {
+ 	padding-bottom: 5px;
+ }
+
+ .bottomline {
+ 	padding-bottom: 5px;
  }
 
  /* Media Queries */
