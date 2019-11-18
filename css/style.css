@@ -205,21 +205,23 @@ blockquote {
 
 .contracts {
 	color: #e8e8e8;
-	padding: 45px;
+	text-align: center;
 	background-color: #e9444f;
 	border-left: solid;
 	border-color: black;
 	border-width: .25px;
 }
 
-.contracts.sm { padding:0; }
+.contracts.sm {
+	padding:0;
+}
 
 .contracts h1 {
 	font-size: 75px;
 	line-height: 1.2;
 	text-align: left;
-	padding: 15px;
-	vertical-align: middle;
+	padding: 45px;
+
 }
 
 .grid-footer {
