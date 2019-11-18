@@ -150,7 +150,6 @@ blockquote {
 
 .yellow-banner-home { 
 	background-color: #f9e56b;
-	height:40px;
 	border-top: solid;
 	border-color: black;
 	border-width: .25px;
@@ -212,6 +211,8 @@ blockquote {
 	border-color: black;
 	border-width: .25px;
 }
+
+.contracts.sm { padding:0; }
 
 .contracts h1 {
 	font-size: 75px;
