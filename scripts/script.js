@@ -21,7 +21,13 @@ $( ".student-rates" ).click(function() {
 var flip = 0;
 $( ".group-rates" ).click(function() {
   $( ".table-three" ).toggle( flip++ % 2 === 0 ).slideToggle("slow");
+}); 
+
+$(document).scroll(function () {
+    var $nav = $(".navbar-fixed-top");
+    $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
 });
+
 
 
 

@@ -112,11 +112,16 @@ blockquote {
 	border-width: .25px;
 }
 
+.navbar-fixed-top.scrolled {
+  background-color: #e8e8e8 !important;
+  transition: background-color 200ms linear;
+}
+
 .main-nav {
 	display: grid;
 	justify-content: space-between;
 	position: fixed;
-	background-color: #e8e8e8;
+	background-color: #6d9b4f;
 	border-style: solid;
 	border-color: black;
 	border-width: .25px;
