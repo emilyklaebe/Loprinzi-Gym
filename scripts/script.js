@@ -34,7 +34,8 @@ $(document).scroll(function () {
 	$nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
 });
 
-// We Are Open
+// Flowtype
+
 
 
 
