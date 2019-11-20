@@ -50,6 +50,7 @@ body {
 	font-family: "Work Sans", sans-serif;
 	font-weight: 300;
 	font-size: 14px;
+	background-color: #e8e8e8; 
 	}
 
 h1, h2, h3, h4 {
@@ -568,14 +569,17 @@ footer .contact {
 
  /* Media Queries */
 
+@media only screen and (min-width: 400px) {
+	.grid-blue-home {
+		grid-template-columns: 1fr;
+	}
 
-@media only screen and (min-width: 100px) {
-	body {
-		background-color: #e8e8e8;
+	.grid-blue-home h2 {
+		padding-bottom: 20px;
 	}
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 500px) {
 	body {
 		background-color: #e8e8e8;
 		font-family: "Work Sans", sans-serif;
@@ -593,6 +597,10 @@ footer .contact {
 
 	.grid-blue-home h2 {
 		font-size: 20px;
+	}
+
+	.grid-blue-home {
+		grid-template-columns: 1fr 1fr;
 	}
 
 	.grid-yellow h2 {
@@ -614,7 +622,7 @@ footer .contact {
 }
 
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 935px) {
 	body {
 		background-color: #e8e8e8;
 		font-family: "Work Sans", sans-serif;
