@@ -27,9 +27,14 @@ $( ".group-rates" ).click(function() {
 }); 
 
 
-// Focus Point Test Below
+// Color Change Nav
 
+$(document).scroll(function () {
+	var $nav = $(".main-nav");
+	$nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+});
 
+// We Are Open
 
 
 
