@@ -99,6 +99,10 @@ a:hover {
 	background-color: #001938;
 }
 
+.main-nav .logo-nav:hover {
+	content: url(../images/loprinzi-logo-grey.png);
+}
+
 /* Home Page */
 
 blockquote {
@@ -483,7 +487,7 @@ footer .contact {
 
 .about-grid-two {
 	display: grid;
-	grid-template-columns: 1.4fr .5fr;
+	grid-template-columns: 1.4fr .8fr;
 	margin: auto;
 	width: 100%;
 }
