@@ -100,9 +100,6 @@ a:hover {
 	background-color: #001938;
 }
 
-.main-nav .logo-nav:hover {
-	content: url(../images/loprinzi-logo-grey.png);
-}
 
 /* Home Page */
 
@@ -604,6 +601,18 @@ footer .contact {
 	.grid-blue-home h2 {
 		padding-bottom: 20px;
 	}
+
+	.group-rates h1 {
+		font-size: 40px;
+	}
+
+	.standard-rates h1 {
+		font-size: 40px;
+	}
+
+	.student-rates h1 {
+		font-size: 40px;
+	}
 }
 
 
@@ -644,9 +653,11 @@ footer .contact {
 		border-color: black;
 		border-width: .25px;
 	}
+
 	.contracts h1 {
 		font-size: 40px;
 	}
+
 }
 
 @media only screen and (min-width: 746px) {
@@ -675,6 +686,18 @@ footer .contact {
 
 	.hide-footer {
 		display: block;
+	}
+
+	.group-rates h1 {
+		font-size: 60px;
+	}
+
+	.standard-rates h1 {
+		font-size: 60px;
+	}
+
+	.student-rates h1 {
+		font-size: 60px;
 	}
 }
 
