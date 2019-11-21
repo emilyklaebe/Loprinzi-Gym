@@ -569,7 +569,34 @@ footer .contact {
 
  /* Media Queries */
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 1px) {
+	.grid-footer {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		margin: auto;
+		width: 100%;
+	}
+
+	.footer {
+		display: grid;
+		justify-content: space-between;
+		background-color: #e8e8e8;
+		vertical-align: middle;
+		border-bottom: solid;
+		border-color: black;
+		border-width: .25px;
+		border
+		text-align: center;
+	}
+
+	.hide-footer {
+		display: none;
+	}
+
+	.time-footer-mobile {
+		padding: 5px;
+	}
+
 	.grid-blue-home {
 		grid-template-columns: 1fr;
 	}
@@ -578,6 +605,7 @@ footer .contact {
 		padding-bottom: 20px;
 	}
 }
+
 
 @media only screen and (min-width: 500px) {
 	body {
@@ -618,6 +646,35 @@ footer .contact {
 	}
 	.contracts h1 {
 		font-size: 40px;
+	}
+}
+
+@media only screen and (min-width: 652px) {
+	.grid-footer {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+		margin: auto;
+		width: 100%;
+	}
+
+	.footer {
+		display: grid;
+		justify-content: space-between;
+		background-color: #e8e8e8;
+		vertical-align: middle;
+		border-top: solid;
+		border-bottom: solid;
+		border-color: black;
+		border-width: .25px;
+		text-align: center;
+	}
+
+	.time-footer-mobile {
+		display: none;
+	}
+
+	.hide-footer {
+		display: block;
 	}
 }
 
