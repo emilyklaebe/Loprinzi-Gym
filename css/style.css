@@ -639,6 +639,26 @@ footer .contact {
 		text-align: center;
 	}
 
+	.about-grid-two {
+		grid-template-columns: 1fr;
+	}
+
+	.space-me {
+	grid-gap: 35px;
+	text-align: left;
+	line-height: 1.2;
+	}
+
+	.grid-paragraph {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		margin: auto;
+		width: 70%;
+		text-align: justify;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
 }
 
 
@@ -696,6 +716,16 @@ footer .contact {
 
 	.student-rates h1 {
 		font-size: 40px;
+	}
+
+}
+
+@media only screen and (min-width: 658px) {
+	.about-grid-two {
+		display: grid;
+		grid-template-columns: 1.4fr .8fr;
+		margin: auto;
+		width: 100%;
 	}
 
 }
