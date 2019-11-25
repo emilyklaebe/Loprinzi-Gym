@@ -595,24 +595,50 @@ footer .contact {
 	}
 
 	.grid-blue-home {
+		display: grid;
 		grid-template-columns: 1fr;
+		margin: auto;
 	}
 
 	.grid-blue-home h2 {
 		padding-bottom: 20px;
 	}
 
-	.group-rates h1 {
-		font-size: 40px;
+	.grid-yellow {
+	display: grid;
+	grid-template-columns: 1fr;
+	margin: auto;
+	align-items: center;
+	justify-content: space-around;
 	}
 
-	.standard-rates h1 {
-		font-size: 40px;
+	.about-grid-one {
+	display: grid;
+	grid-template-columns: 1fr;
+	margin: auto;
+	width: 100%;
+	background-color: #0e306a;
+	padding-top: 110px;
+	border-bottom: .25px;
+	border-style: solid;
+	border-color: black;
 	}
 
-	.student-rates h1 {
-		font-size: 40px;
+	.about-grid-one h2 {
+		font-size: 18px;
+		line-height: 1.4; 
 	}
+
+	.about-quote {
+		margin: auto;
+		padding-left: 80px;
+	}
+
+	.sam { 
+		width: 60%;
+		text-align: center;
+	}
+
 }
 
 
@@ -637,7 +663,9 @@ footer .contact {
 	}
 
 	.grid-blue-home {
+		display: grid;
 		grid-template-columns: 1fr 1fr;
+		margin: auto;
 	}
 
 	.grid-yellow h2 {
@@ -655,6 +683,18 @@ footer .contact {
 	}
 
 	.contracts h1 {
+		font-size: 40px;
+	}
+
+	.group-rates h1 {
+		font-size: 40px;
+	}
+
+	.standard-rates h1 {
+		font-size: 40px;
+	}
+
+	.student-rates h1 {
 		font-size: 40px;
 	}
 
@@ -699,6 +739,15 @@ footer .contact {
 	.student-rates h1 {
 		font-size: 60px;
 	}
+
+	.grid-yellow {
+	display: grid;
+	grid-template-columns: 1.8fr 1fr;
+	margin: auto;
+	align-items: center;
+	justify-content: space-around;
+	}
+
 }
 
 
@@ -736,6 +785,31 @@ footer .contact {
 
 	.contracts h1 {
 		font-size: 75px;
+	}
+}
+
+@media only screen and (min-width: 977px) {
+	
+	.about-grid-one {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: auto;
+	width: 100%;
+	background-color: #0e306a;
+	padding-top: 110px;
+	border-bottom: .25px;
+	border-style: solid;
+	border-color: black;
+	}
+
+	.about-grid-one h2 {
+		font-size: 22px;
+		line-height: 1.4; 
+	}
+
+	.about-quote {
+		margin: auto;
+		padding-left: 0px;
 	}
 }
 
