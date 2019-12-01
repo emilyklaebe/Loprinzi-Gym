@@ -854,6 +854,28 @@ footer .contact {
 		background-color: #e8e8e8;
 	}
 }
+
+@media only screen and (min-width: 1500px) {
+	.grid-blue-home h2 {
+		font-size: 28px;
+	}
+
+	.contracts h1 {
+		font-size: 90px;
+	}
+
+	.grid-yellow h2 {
+		font-size: 28px;
+	}
+
+	.about-quote h2 {
+		font-size: 28px;
+	}
+
+	.grid-paragraph p {
+		font-size: 18px;
+	}
+}
 /*
 font-family: 'Mansalva', cursive;
 font-family: 'Dosis', sans-serif;
